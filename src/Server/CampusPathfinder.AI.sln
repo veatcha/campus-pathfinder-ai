@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampusPathfinder.AI.AppHost", "CampusPathfinder.AI.AppHost\CampusPathfinder.AI.AppHost.csproj", "{66866B4C-4779-432B-A54D-882B3F4FE328}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampusPathfinder.AI.ServiceDefaults", "CampusPathfinder.AI.ServiceDefaults\CampusPathfinder.AI.ServiceDefaults.csproj", "{FB772A14-2450-4B9B-9FDA-B2EFD38FA8A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66866B4C-4779-432B-A54D-882B3F4FE328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66866B4C-4779-432B-A54D-882B3F4FE328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66866B4C-4779-432B-A54D-882B3F4FE328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66866B4C-4779-432B-A54D-882B3F4FE328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB772A14-2450-4B9B-9FDA-B2EFD38FA8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB772A14-2450-4B9B-9FDA-B2EFD38FA8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB772A14-2450-4B9B-9FDA-B2EFD38FA8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB772A14-2450-4B9B-9FDA-B2EFD38FA8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B820B39-F7D4-4264-8FB4-2C05C0AB46CA}
+	EndGlobalSection
+EndGlobal
