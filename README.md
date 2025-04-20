@@ -28,10 +28,10 @@ Campus Pathfinder AI is a **multi‑agent concierge** for higher‑ed institut
 ## 2. Data Layer & RAG Pipeline (Apr 18–19)
 | # | Task | DoD |
 |---|------|-----|
-|2.1|❌ Design sample knowledge schema (FAQ, catalog) as JSON files in `/data/raw` | Schema documented in `README` |
-|2.2|❌ Write `ingest_catalog.csx` Azure Function to push data to Cosmos DB | Console run ingests without error |
-|2.3|❌ Create `ai-search.bicep` deploying Azure AI Search (free tier) | `az deployment` succeeds |
-|2.4|❌ Build indexer pipeline (Cosmos → Search) & run initial load | `search explorer` returns docs |
+|2.1|✅  Design sample knowledge schema (FAQ, catalog) as JSON files in `/data/raw` | Schema documented in `README` |
+|2.2|✅  Write `ingest_catalog.csx` Azure Function to push data to Cosmos DB | Console run ingests without error |
+|2.3|✅ Create `ai-search.bicep` deploying Azure AI Search (free tier) | `az deployment` succeeds |
+|2.4|✅  Build indexer pipeline (Cosmos → Search) & run initial load | `search explorer` returns docs |
 |2.5|❌ Add xUnit tests `CatalogSearchTests.cs` (top‑3 recall ≥ 90 %) | `dotnet test` passes |
 
 ---

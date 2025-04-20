@@ -1,0 +1,21 @@
+[
+    {
+      "id": "course-CS101",
+      "pk": "course-CS101",
+      "type": "course",
+      "courseId": "CS 101",
+      "title": "Introduction to Computer Science",
+      "description": "Overview of algorithms, data structures, and software design.",
+      "credits": 3
+    },
+    {
+      "id": "course-HIST210",
+      "pk": "course-HIST210",
+      "type": "course",
+      "courseId": "HIST 210",
+      "title": "Modern European History",
+      "description": "Europe from 1789 to present with emphasis on political change.",
+      "credits": 4
+    }
+  ]
+  

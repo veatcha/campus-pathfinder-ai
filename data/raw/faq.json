@@ -1,0 +1,17 @@
+[
+    {
+      "id": "faq-tuition",
+      "pk": "faq-tuition",
+      "type": "faq",
+      "question": "How do I pay my tuition bill?",
+      "answer": "Log in to the Student Portal → Billing → Pay Now. Accepted methods: ACH, credit, or payment plan."
+    },
+    {
+      "id": "faq-housing_deadline",
+      "pk": "faq-housing_deadline",
+      "type": "faq",
+      "question": "What is the housing deposit deadline?",
+      "answer": "May 15th for fall admits; December 1st for spring admits."
+    }
+  ]
+  

@@ -1,0 +1,11 @@
+az group create \
+  --name rg-pathfinder-dev \
+  --location eastus
+  
+az deployment group create \
+  --resource-group rg-pathfinder-dev \
+  --template-file infra/ai-search.bicep
+
+az deployment group create \
+  --resource-group rg-pathfinder-dev \
+  --template-file infra/catalog.bicep
